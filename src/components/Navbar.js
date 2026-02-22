@@ -14,7 +14,7 @@ function Navbar() {
   return (
     <nav className="navbar">
       <div className="nav-brand">
-        <h2>Pet Adoption Center</h2>
+        <h2>Pet Heaven</h2>
       </div>
       
       <ul className="nav-links">
