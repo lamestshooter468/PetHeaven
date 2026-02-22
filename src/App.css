@@ -25,7 +25,7 @@ body {
 
 .navbar ul {
   display: flex;
-  align-items: center; /* Vertically centers the "More ▾" trigger */
+  align-items: center;
   list-style: none;
   gap: 5px;
 }
@@ -262,10 +262,20 @@ body {
 }
 
 .login-footer {
-  text-align: center;
   margin-top: 20px;
-  font-size: 14px;
+  text-align: center;
+  font-size: 0.9rem;
   color: #666;
+}
+
+.signup-link {
+  color: #ff6b6b;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.signup-link:hover {
+  text-decoration: underline;
 }
 
 .login-footer a {

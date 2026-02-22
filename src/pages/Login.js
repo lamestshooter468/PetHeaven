@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { useNavigate } from "react-router-dom";
+import { useNavigate, Link } from "react-router-dom";
 
 function Login() {
   const [user, setUser] = useState({ email: "", password: "" });
@@ -41,8 +41,14 @@ function Login() {
             required 
           />
         </div>
-
         <button type="submit" className="login-btn">Login</button>
+
+        <div className="login-footer">
+          <p>
+            Don't have an account?{" "}
+            <Link to="/signup" className="signup-link">Sign Up</Link>
+          </p>
+        </div>
       </form>
     </div>
   );
