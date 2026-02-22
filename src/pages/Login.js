@@ -1,19 +1,16 @@
 import React, { useState } from "react";
-import { useNavigate } from "react-router-dom"; // 1. Import the hook
+import { useNavigate } from "react-router-dom";
 
 function Login() {
   const [user, setUser] = useState({ email: "", password: "" });
-  const navigate = useNavigate(); // 2. Initialize the navigate function
+  const navigate = useNavigate();
 
   const handleSubmit = (e) => {
     e.preventDefault();
     
-    // Save the user to localStorage
     localStorage.setItem("user", user.email);
     
-    // Redirect home
     navigate("/");
-    // Refresh the page so the Navbar sees the change
     window.location.reload(); 
   };
   

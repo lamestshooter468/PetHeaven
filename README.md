@@ -1,6 +1,6 @@
 # What to do from here
 
-If you are seeing this page, please reload to view the actual contents of the webpage.
+If you are seeing this page, please contact the administrator of the webpage.
 What you are currently seeing is the README document.
 
 # Getting Started with Create React App
