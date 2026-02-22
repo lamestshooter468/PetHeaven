@@ -24,7 +24,7 @@ function Contact() {
           </div>
         </div>
 
-        <button className="login-btn" onClick={() => window.location.href = 'mailto:hello@petadopt.com'}>
+        <button className="login-btn" onClick={() => window.location.href = 'mailto:lamestshooter@gmail.com'}>
           Email Us Now
         </button>
       </div>
