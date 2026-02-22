@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/PetHeaven/static/css/main.a54cabc2.css",
+    "main.js": "/PetHeaven/static/js/main.8ff0ca2f.js",
+    "index.html": "/PetHeaven/index.html",
+    "main.a54cabc2.css.map": "/PetHeaven/static/css/main.a54cabc2.css.map",
+    "main.8ff0ca2f.js.map": "/PetHeaven/static/js/main.8ff0ca2f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a54cabc2.css",
+    "static/js/main.8ff0ca2f.js"
+  ]
+}
